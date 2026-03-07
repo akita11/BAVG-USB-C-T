@@ -14,6 +14,7 @@ USB Type-Cケーブルの、データ線(D+/D-)をデータ送信用の差動対
 <img src="https://github.com/akita11/BAVG-USBC-T/blob/main/with_cable.jpg" width="240px">
 
 BAVG-USBC-T-PDではUSB PD (Power Derivery)の電圧設定機能があり、給電電圧を20Vまたは12Vに設定できます。
+（電圧設定が有効の場合はPG (Power Good)LEDが点灯します）
 
 
 ## USB PD給電の設定 (BAVG-USBC-T-PDのみ）
