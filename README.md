@@ -1,10 +1,10 @@
 # BAVG-USBC-T / BAVG-USBC-T-PD
 
-<img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/BAVG-USBC-T.jpg" width="240px">
+<img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/BAVG-USB-C-T.jpg" width="240px">
 
-<img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/BAVG-USBC-T-PD.jpg" width="240px">
+<img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/BAVG-USB-C-T-PD.jpg" width="240px">
 
-USB TypeｰCケーブルをツイストペア線と電源線として使用して、RS485等の差動伝送を行うことができます。
+USB TypeｰCケーブル（両側）をツイストペア線と電源線として使用して、RS485等の差動伝送を行うことができます。
 複数を直列（デージーチェーン）接続することで、マルチドロップのT型トポロジ接続にできます。
 
 <img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/BAVG-USB-C-T_with_HT.jpg" width="240px">
