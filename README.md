@@ -1,25 +1,33 @@
-# BAVG-USBC-T / BAVG-USBC-T-PD
-
-<img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/BAVG-USB-C-T.jpg" width="240px">
-
-<img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/BAVG-USB-C-T-PD.jpg" width="240px">
+# BAVG-USBC-T / BAVG-USBC-T-PD / BAVG-USBC-T-PDdiv
 
 USB TypeｰCケーブル（両側）をツイストペア線と電源線として使用して、RS485等の差動伝送を行うことができます。
 複数を直列（デージーチェーン）接続することで、マルチドロップのT型トポロジ接続にできます。
 
-<img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/BAVG-USB-C-T_with_HT.jpg" width="240px">
-
 [M5Stack社のRS485 Unit](https://www.switch-science.com/products/6554)や[RS485M Unit](https://github.com/akita11/RS485M_Unit)等に接続して使用できます。
 USB Type-Cケーブルの、データ線(D+/D-)をデータ送信用の差動対(A/B)、電源線を給電(V/G)に用います。
 
+<img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/BAVG-USB-C-T_with_HT.jpg" width="240px">
 
-## BAVG-USBC-T-PDのUSB PD機能と通信
+
+このページでは以下の3種類の情報をまとめています。
+
+
+## BAVG-USBC-T
+
+<img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/BAVG-USB-C-T.jpg" width="240px">
+
+両側のUSB Type-Cコネクタ間のデータ線(DP/DN)がA/B線と接続されていて、マルチドロップ型のデータ通信を行うことができます。
+
+
+## BAVG-USBC-T-PD
+
+<img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/BAVG-USB-C-T-PD.jpg" width="240px">
 
 BAVG-USBC-T-PDではUSB PD (Power Derivery)の電圧設定機能があり、給電電圧を20Vまたは12Vに設定できます。
 電圧設定が有効の場合はPG (Power Good)LEDが点灯します
 
 また2つのUSBコネクタの通信線は接続されていないため、両側のUSBコネクタでのデータ通信を行うことはできません。
-2つのコネクタでデータ通信を行う場合は、PD機能のない「BAVG-USBC-T」を使用してください。
+2つのコネクタでデータ通信を行う場合は、PD機能のない「BAVG-USBC-T」、またはPD給電コネクタが別にある「BAVG-USBC-T-PDdiv」を使用してください。
 
 <img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/BAVG-USB-C-T-PD_dir.jpg" width="240px">
 
@@ -32,7 +40,7 @@ BAVG-USBC-T-PDではUSB PD (Power Derivery)の電圧設定機能があり、給�
 <img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/config.png" width="640px">
 
 
-### USB PD給電の設定 (BAVG-USBC-T-PDのみ）
+### USB PD給電の設定
 
 <img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/BAVG-USB-C-T-PD-B.jpg" width="240px">
 
@@ -49,6 +57,15 @@ BAVG-USBC-T-PDではUSB PD (Power Derivery)の電圧設定機能があり、給�
 
 ※JP2の設定は、給電元（ACアダプタ等）へ要求する電圧で、実際に供給される電圧はUSB PD ACアダプタ等の仕様によります。
 （例えば給電側の供給可能電圧が9V/15V/20Vの場合でJP2をショートした場合は9Vとなります）
+
+
+## BAVG-USBC-T-PDdiv
+
+<img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/BAVG-USB-C-T-PDdiv.jpg" width="240px">
+
+USB Type-Cコネクタが3つあり、1つは給電用（データ線の接続なし）、残り2つは「BAVG-USBC-T」と同様にデータ線（DP/DN）が接続されており、マルチドロップ型の通信を行うことができます。
+
+USB PDの電圧設定は「BAVG-USBC-T-PD」と同様です。
 
 
 ## Author
