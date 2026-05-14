@@ -61,9 +61,14 @@ BAVG-USBC-T-PDではUSB PD (Power Derivery)の電圧設定機能があり、給�
 
 ## BAVG-USBC-T-PDdiv
 
-<img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/BAVG-USB-C-T-PDdiv.jpg" width="240px">
+<img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/BAVG-USB-C-T-PDdiv1.jpg" width="240px">
+
+<img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/BAVG-USB-C-T-PDdiv2.jpg" width="240px">
 
 USB Type-Cコネクタが3つあり、1つは給電用（データ線の接続なし）、残り2つは「BAVG-USBC-T」と同様にデータ線（DP/DN）が接続されており、マルチドロップ型の通信を行うことができます。
+
+<img src="https://github.com/akita11/BAVG-USB-C-T/blob/main/BAVG-USB-C-T-PDdiv_conn.jpg" width="240px">
+
 
 USB PDの電圧設定は「BAVG-USBC-T-PD」と同様です。
 
